@@ -1,8 +1,8 @@
 {
     "defaults": {
-        "reporters": [
-            "pa11y-reporter-html"
-        ]
+         "reporters": [
+                    ["json", { "fileName": "./results.json" }]
+                ]
     },
     "urls": [
         "https://stackoverflow.com/questions/48321639/error-is-not-recognized-as-an-internal-or-external-command-operable-program-o",

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test-pa11y": "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\pa11y-demo\\node_modules\\pa11y-ci"
+    "test-pa11y": "C:\\Users\\neeru\\OneDrive\\Desktop\\pa11y\\node-js-sample\\node_modules\\.bin\\pa11y-ci",
+    "store": "pa11y --reporter html results.json > report.html"
   },
   "dependencies": {
     "express": "^4.13.3",
