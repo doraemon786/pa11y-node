@@ -5,9 +5,9 @@
                 ]
     },
     "urls": [
-        "https://stackoverflow.com/questions/48321639/error-is-not-recognized-as-an-internal-or-external-command-operable-program-o",
+        "https://www.javatpoint.com/jenkins-maven-setup",
         {
-            "url": "https://stackoverflow.com/questions/48321639/error-is-not-recognized-as-an-internal-or-external-command-operable-program-o",
+            "url": "https://www.javatpoint.com/jenkins-maven-setup",
             "timeout": 50000,
             "screenCapture": "myDir/my-screen-capture.png"
         }
