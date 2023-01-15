@@ -1,0 +1,15 @@
+{
+    "defaults": {
+        "reporters": [
+            "pa11y-reporter-html"
+        ]
+    },
+    "urls": [
+        "https://stackoverflow.com/questions/48321639/error-is-not-recognized-as-an-internal-or-external-command-operable-program-o",
+        {
+            "url": "https://stackoverflow.com/questions/48321639/error-is-not-recognized-as-an-internal-or-external-command-operable-program-o",
+            "timeout": 50000,
+            "screenCapture": "myDir/my-screen-capture.png"
+        }
+    ]
+}
