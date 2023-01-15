@@ -1,15 +1,14 @@
 {
     "defaults": {
          "reporters": [
-                    ["json", { "fileName": "./results.json" }]
+         "cli",
+                   [
+                           "pa11y-ci-reporter-html",
+                           { "destination": "./reports", "includeZeroIssues": true }
+                         ]
                 ]
     },
     "urls": [
-        "https://www.javatpoint.com/jenkins-maven-setup",
-        {
-            "url": "https://www.javatpoint.com/jenkins-maven-setup",
-            "timeout": 50000,
-            "screenCapture": "myDir/my-screen-capture.png"
-        }
+        "https://www.007.com/"
     ]
 }

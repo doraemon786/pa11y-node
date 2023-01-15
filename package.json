@@ -5,13 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test-pa11y": "C:\\Users\\neeru\\OneDrive\\Desktop\\pa11y\\node-js-sample\\node_modules\\.bin\\pa11y-ci",
-    "store": "pa11y --reporter html results.json > report.html"
+    "test-pa11y": "C:\\Users\\neeru\\OneDrive\\Desktop\\pa11y\\node-js-sample\\node_modules\\.bin\\pa11y-ci"
   },
   "dependencies": {
     "express": "^4.13.3",
     "pa11y-ci": "^3.0.1",
-    "pa11y-reporter-html": "^2.0.0"
+    "pa11y-ci-reporter-html": "^5.0.2"
   },
   "engines": {
     "node": "4.0.0"
