@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test-pa11y": "C:\\Users\\neeru\\OneDrive\\Desktop\\pa11y\\node-js-sample\\node_modules\\.bin\\pa11y-ci"
+    "test-pa11y": "node_modules/.bin/pa11y-ci"
   },
   "dependencies": {
     "express": "^4.13.3",
